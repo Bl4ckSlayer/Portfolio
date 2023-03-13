@@ -12,16 +12,20 @@ function Github() {
     grade1: "#c084f5",
     grade0: "#ecd9fc",
   };
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
         Days I <strong className="purple">Code</strong>
       </h1>
+
       <GitHubCalendar
-        username="Bl4ckSlayer"
+        username="bl4ckslayer"
         blockSize={15}
         blockMargin={5}
         theme={colourTheme}
+        hideColorLegend
+        hideTotalCount
         fontSize={16}
       />
     </Row>

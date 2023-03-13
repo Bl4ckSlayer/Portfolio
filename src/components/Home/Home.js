@@ -10,11 +10,13 @@ import { AiOutlineDownload } from "react-icons/ai";
 import Home2 from "./Home2";
 import Type from "./Type";
 import ContactMe from "../ContactMe";
+import Techstack from "../About/Techstack";
+import Toolstack from "../About/Toolstack";
 
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="home-section " id="home">
         <Particle />
         <Container className="home-content">
           <Row>
@@ -51,6 +53,19 @@ function Home() {
       <ResumeNew />
 
       <Home2 />
+      <Container fluid className="about-section">
+        <h1 className="project-heading">
+          Professional <strong className="purple">Skillset </strong>
+        </h1>
+
+        <Techstack />
+
+        <h1 className="project-heading">
+          <strong className="purple">Tools</strong> I use
+        </h1>
+        <Toolstack />
+      </Container>
+
       <ContactMe />
     </section>
   );

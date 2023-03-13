@@ -24,7 +24,7 @@ function Footer() {
         <div className="footer-icons">
           <div className="social-icons">
             <a
-              href="https://github.com/imriaz"
+              href="https://github.com/Bl4ckSlayer"
               style={{ color: "white" }}
               target="_blank"
               rel="noopener noreferrer"
@@ -35,7 +35,7 @@ function Footer() {
           </div>
           <div className="social-icons">
             <a
-              href="https://www.linkedin.com/in/imriazuddin"
+              href="https://www.linkedin.com/in/amirul-islam-tajbid/"
               style={{ color: "white" }}
               target="_blank"
               rel="noopener noreferrer"
@@ -46,7 +46,7 @@ function Footer() {
           </div>
           <div className="social-icons">
             <a
-              href="https://facebook.com/md.imriaz.eman"
+              href="https://www.facebook.com/ai.tajbid/"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
@@ -156,7 +156,7 @@ function Footer() {
 
       {/* <!-- Copyright --> */}
       <div class="text-center p-4">
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">
+        <a class="text-reset fw-bold" href="/">
           Copyright &copy; {year} : Amirul Islam Tajbid
         </a>
       </div>
